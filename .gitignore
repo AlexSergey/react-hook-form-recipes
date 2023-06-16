@@ -40,8 +40,11 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules
-jspm_packages
+node_modules/
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
 
 # Optional npm cache directory
 .npm
@@ -86,7 +89,6 @@ Thumbs.db
 .DS_Store
 
 # Test reports
-reports
 test-reports
 
 # Custom config for prettier and eslint
